@@ -1,0 +1,130 @@
+.Tel{
+    direction: ltr;
+}
+header img {
+    width: 200px;
+    margin-right: 15px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+.DataDiv {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.DataLabel {
+    font-size: 20px;
+   font-weight: 700 !important;
+    line-height: 1em;  
+}
+
+.DataValue {
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+.InvoiceTitle {
+    text-align: center;
+    margin: 50px;
+    margin-top: 20px;
+}
+
+.TableDiv {
+    margin-top: 30px;
+}
+.FooterData {
+    margin-top: 30px;
+}
+.footerImg img{
+    width: 150px;
+    float: left;
+}
+.icon {
+    display: inline-block; 
+    margin-left: 5px;
+}
+.MenuSpan {
+    font-family: 'FontAwesome';
+}
+.contactData {
+    line-height: 3px;
+    margin-right: 25px;
+}
+.address {
+    line-height: 10px;
+}
+.contactData p{
+    font-size: 10px;
+}
+.contactData span{
+    font-size: 10px;
+}
+.contactData h4{
+    font-weight: 700;
+    font-size: 12px;
+}
+.footerHr {
+    margin-bottom: 5px;
+}
+.InvoiceFooter {
+    position: fixed !important;
+    bottom: 0px !important;
+    border-top: 5px solid #c79932;
+  display: none; 
+}
+.InvoiceTool a{
+    float: left;
+margin-left: 5px;
+background: rgb(46, 45, 43);
+border: none;
+}
+
+.InvoiceTool a:hover{
+background: rgb(46, 45, 43);
+}
+
+.InvoiceTool .btn-success{
+    background: #cd162c !important;
+}
+.InvoiceTool {
+  float: left;
+margin-left:10px;
+padding-bottom: 10px;
+}
+.InvDesc {
+    margin-top: 50px;
+}
+.InvHeader {
+    border-bottom: 5px solid #cd162c;
+}
+@media print {
+    .InvoiceTool {
+        display: none;
+    }
+    .InvoiceFooter {
+    display: block; 
+}
+.sideBar{
+	display:none;
+}
+.nav-tabs{
+	display:none;
+}
+.InvHeader{
+	display:none;
+}
+.goog-te-banner-frame 
+	{
+		display:none;
+	}
+.containerHeader{
+		display:none;
+	}
+	.DataDiv{
+		display:block;
+	}
+	.Print {
+		display:block;
+    margin: 0px!important;
+    padding:0px!important;
+    }
+}

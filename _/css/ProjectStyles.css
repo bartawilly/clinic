@@ -1,0 +1,835 @@
+@font-face {
+	    font-family: "Conv_stc_1";
+	    src: url('../_/fonts/stc_1.eot'),url('../_/fonts/stc_1.woff') format('woff'), url('../_/fonts/stc_1.ttf') format('truetype'), url('../_/fonts/stc_1.svg') format('svg');
+	    font-weight: normal;
+	    font-style: normal;    
+}
+#edit_validate_depandent_passport {
+    color: red;
+    display: inline-block;
+    margin-right: 5px;
+}
+.Xrow {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.inputDependant{
+    max-width: 48% !important;
+float: right;
+margin-right: 5px;
+}
+#DependantValidation {
+    color: red;
+margin: 5px;
+}
+
+#ReloadReport {
+    float: left;
+    color: #2e2d2b;
+    margin-top: 5px;
+}
+#ReloadReport:hover {
+    color: rgb(205, 22, 44);
+}
+#ReloadReport:focus {
+    color: rgb(205, 22, 44);
+}
+.ui-datepicker-prev {
+    display: none !important;
+}
+.ui-datepicker-next {
+    display: none !important;
+}
+.ui-datepicker-div {
+    margin-right: 20px;
+}
+.ui-datepicker-header {
+    background: rgb(205, 22, 44);
+    border: none;
+}
+.ui-datepicker-year {
+    color: #2e2d2b;
+}
+.ui-datepicker-month {
+    color: #2e2d2b;
+}
+.ui-state-default {
+    color: rgb(205, 22, 44) !important;
+    font-weight: 600 !important;
+}
+.TabLi {
+      min-width: 6.5%;
+    margin-left: 2px;
+}
+.TabLi a{
+    min-width: 100% !important;
+}
+.InValue {
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+}
+.InValue h4 {
+   display: inline-block;
+   margin-left: 5px;
+   font-size: 14px;
+   
+}
+
+.changeProfileBtn {
+    max-width: 40px;
+    background: rgb(46, 45, 43) none repeat scroll 0% 0%;
+    border: medium none;
+}
+
+.changeProfileBtn:hover {
+    background: rgb(205, 22, 44);
+}
+.changeProfileBtn:focus {
+    background: rgb(205, 22, 44);
+}
+#UploadLogoInput {
+    min-height: 48px;
+}
+
+.InValue h4 span.fa-pencil {
+   color: #2e2d2b;
+}
+.InValue h4 span.fa-reply {
+   color: #00620C;
+}
+.InValue h4 span.fa-share {
+   color: rgb(205, 22, 44);
+}
+.B2{
+    margin-left:5px;
+    background: #00620C !important;
+   
+}
+.badge{
+     border-radius: 4px !important;
+}
+
+.form-group label{
+    font-weight: 600 !important;
+	    font-size: 15px;
+}
+.error {
+    font-weight: 500;
+color: rgb(205, 22, 44);
+margin-right: 5px;
+}
+
+body {
+    margin: 0px;
+    direction:rtl;
+    overflow: hidden;
+    font-family: "Conv_stc_1";
+}
+
+body a{
+    cursor: pointer;
+}
+html {
+    direction:rtl;
+    overflow: hidden;
+}
+.tab-pane {
+    overflow: hidden;
+}
+/*---------------------------------------------------------*/
+/*-------------------------------------------Header--------*/
+header {
+    height: 42px;
+    max-height: 42px;
+}
+  header nav {
+    margin-bottom: 0px !important;
+    background: #2e2d2b !important;
+    height: 42px;
+    max-height: 42px;
+    box-shadow: none !important;
+    }
+    header nav .container-fluid {
+        max-height: 42px;
+    }
+    header nav .navbar-right {
+      margin-top: 5px;
+      max-width: 250px;
+      display: inline-block;
+      float: left;
+      }
+      header nav .navbar-right :hover {
+        color: #cd162c; 
+        }
+      header nav .navbar-right a  , header nav .navbar-left a{
+        color: #ffffff;
+        }
+        header nav .navbar-right a :hover , header nav .navbar-left a:hover{
+          color: #cd162c !important; 
+        }
+        header nav .navbar-right a :focus  , header nav .navbar-left a:focus{
+          color: #cd162c !important; 
+          }
+    header nav .navbar-left {
+      display: inline-block;
+      float: right;
+      z-index: 500;
+      max-height:42px;
+      }
+    header nav .navbar-left .row{
+
+      max-height:42px;
+      margin-bottom: 0px;
+      }
+
+header nav .navbar-left .NRelement {
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+    z-index: 1600;
+}
+.dropdown {
+    z-index: 500;
+}
+.dropdown  a{
+    font-size: 23px;
+    padding-top: 3px;
+    margin-left: 20px;
+}
+
+.dropdown-menu {
+    top: 95%;
+    
+}
+ .dropdown-menu-Item > a {
+    font-size: 16px;
+    color: #2e2d2b !important; 
+
+}    
+      header nav .navbar-left form {
+        min-width: 215px;
+        }
+        header nav .navbar-left form input {
+          border-radius: 0px;
+          background: #cd162c;
+          color: #ffffff;
+          font-weight: 100;
+          border: 0;
+          width: 250px;
+          line-height: 37px;
+          font-size: 14px;
+          text-indent: 15px;
+          height: 30px; 
+          position: relative;
+          z-index: 500;
+          }
+        header nav .navbar-right left .form-control::-moz-placeholder {
+          color: #333 !important;
+          font-weight: 100; 
+          }
+        header nav .navbar-left form a {
+          color: #ffffff;
+          font-size: 18px;
+          float: left;
+          margin-top: -35px;
+          margin-left: 20px;
+          position: relative; 
+          z-index: 500;
+          }
+        header nav .navbar-left form .form-group {
+          margin-bottom: 0px; 
+          }
+          header nav .navbar-left form .form-group :focus {
+            border: 0px;
+            box-shadow: none; 
+          }
+/*-----------------------------------------------------------*/
+
+.sideBar{
+    background-color: #e7e7e7;
+border-top: 1px #dcdcdc solid;
+border-left: 1px solid #ccc;
+display: block;
+position: absolute;
+overflow: hidden;
+top: 42px;
+bottom: 0;
+right: -1px;
+width: 60px;
+z-index: 9;
+}
+
+.sideBar ul {
+    padding: 5px;
+    padding-top: 15px;
+}
+
+.sideBar li {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+    list-style: none;
+}
+.sideBar li.active >a {
+    color: #2e2d2b !important;
+}
+.sideBar li a {
+    color: #a3a3a3;
+    text-decoration: none;
+}
+
+.sideBar li a:hover {
+    color: #2e2d2b;
+    text-decoration: none;
+}
+
+.nav-tabs {
+    z-index: 450;
+    position: relative;
+}
+.nav-tabs > li {
+float: right;
+margin-bottom: -1px;
+height: 33px;
+text-align: right;
+}
+
+.nav-tabs > li > a, .nav-tabs > li > a:focus, .nav-tabs > li > a:hover {
+    padding-top: 6px;
+padding-bottom: 5.5px;
+min-width: 200px;
+float: right;
+background: #cd162c;
+color: #ffffff;
+border: 0px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    padding-top: 6px;
+padding-bottom: 4.5px;
+min-width: 200px;
+float: right;
+background: #FBFBFB !important;
+}
+
+.nav-tabs > li > a > p {
+    display: inline-block;
+    float: right;
+    margin-bottom: 0px;
+}
+
+.nav-tabs > li > a > span {
+    display: inline-block;
+    float: right;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+
+.DataSection {
+right: 57px;
+position: absolute;
+top: 10px;
+width: 96.5%;
+bottom: 0;
+}
+.nav {
+    padding-right: 0px;
+}
+.containerHeader {
+    background-color: #FBFBFB;
+max-height: 75px;
+height: 75px;
+border-top: 1px transparent solid;
+border-bottom: 1px #C5C5C5 solid;
+margin: 0px;
+}
+
+.containerHeader h4 {
+    margin-right: 15px;
+    font-weight: 700;
+}
+
+.PageForm {
+    background: #f8f8f8;
+    padding-top: 15px;
+    position: absolute;
+    overflow: auto;
+    bottom: 0;
+    top: 138px;
+    border-left: 1px solid #d5d5d5;
+}
+
+.containerContent {
+    margin: 0px;
+position: absolute;
+overflow: auto;
+bottom: 0;
+top: 0px;
+width: 100%;
+}
+
+#AddCompanyForm .form-group{
+    margin-bottom: 8px;
+}
+.box-header  {
+    padding: 0px !important;
+}
+.box-header hr {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.box-header h4 {
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.FormContainer h3 {
+    margin-top: 0px;
+}
+
+.box-body {
+    padding-top: 13px !important;
+}
+
+.PageTable {
+    padding-top: 20px;
+    overflow: auto;
+    bottom: 0;
+    top: 150px;
+    position: absolute;
+    left: 0;
+}
+.PageForm2 {
+    padding: 0px;
+    overflow: auto;
+    bottom: 0;
+    top: 108px;
+    position: absolute;
+    left: 0;
+}
+
+.PageTable table{
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.1);
+}
+
+table >thead >tr >th{
+    text-align: center;
+}
+
+table >thead >tr >td{
+    text-align: center;
+}
+table td{
+    text-align: center !important;
+}
+
+
+.box-wider-text {
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    display: inline-block;
+    float: right;
+}
+.title h2 {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 25px;
+}
+#SearchForm {
+    display: inline-block;
+    float: left;
+    padding-top: 10px;
+    position: relative;
+    z-index: 1000;
+}
+
+#SearchForm .row {
+    margin: 0px;
+}
+
+#SearchForm select {
+    display: inline-block;
+    width: 85%;
+}
+#SearchForm input {
+    display: inline-block;
+    width: 90%;
+}
+
+#SearchForm span {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 18px;
+}
+.FilterDiv {
+    padding-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    float: right;
+}
+.SearhDiv {
+    padding-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    float: right;
+}
+
+.CompanyTel ,CompanyCount{
+    padding-right: 2.5px;
+}
+
+.CompanyMob , .CompanySize{
+    padding-left: 2.5px;
+}
+.modal {
+    z-index: 50000;
+}
+.close {
+    float: left;
+}
+
+textarea {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 120px;
+    max-height: 120px;
+}
+
+.checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"], .radio input[type="radio"], .radio-inline input[type="radio"] {
+    position: relative;
+    margin-left: 0px;
+}
+
+.ui-datepicker {
+    z-index: 50000 !important;
+}
+
+.tooltip {
+    position: fixed !important;
+}
+
+.SwitchForm {
+    padding: 0px;
+}
+.swichBtn {
+    margin: auto;
+    width: 76px;
+}
+.swichBtnContainer {
+    margin-top: 25%;
+}
+.PageForm ul {
+    padding: 0px;
+}
+
+.Subtitle h3 {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 0px;
+}
+
+.Subtitle {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.FormContent {
+padding: 15px;
+padding-top: 0px;
+}
+
+#submitBtn {
+    margin-bottom: 10px;
+}
+
+.list-group-item a {
+    color: #2e2d2b;
+}
+
+.list-group-item a:hover {
+    text-decoration: none;
+    color: #cd162c;
+}
+
+.list-group-item a:focus {
+    text-decoration: none;
+    color: #cd162c;
+}
+
+.PageForm img{
+    width: 100%;
+    padding: 15px;
+    padding-bottom: 30%;
+    padding-top: 50px;
+}
+.CompanyData {
+    padding: 15px;
+}
+
+.CompanyDataItem label {
+    margin-right: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.SpecsDiv {
+    max-width: 32%;
+    height: auto;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border: solid 1px;
+    border-radius: 2px;
+    border-color: #e8e8e8;
+    display: inline-block;
+    margin-right: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    float: right;
+    margin-bottom: 10px;
+}
+.SpecsResult {
+    padding: 5px 20px 10px;
+    position: relative;
+    margin: 0px;
+}
+
+.ProgramSpecs {
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
+    background-color: #FCFCFC;
+    width: auto;
+    padding: 5px 20px 5px;
+    border-radius: 0px 0px 3px 3px;
+    
+}
+.ProgramSpecs h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.ProgramSpecs h4 {
+    font-size: 14px;
+    text-align: center;
+}
+.ProgCost {
+    text-align: center;
+}
+.ProgramSpecs p {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;  
+    margin-right: 5px; 
+}
+
+.SpecsResult h3 {
+    font-size: 16px;
+    font-weight: 700; 
+    margin-bottom: 0px;
+    margin-top: 18px;
+    display: inline-block; 
+}
+.SpecsResult span {
+    font-size: 35px;
+    font-weight: 700; 
+    color: #cd162c;
+    display: inline-block; 
+    float: left;
+}
+.UpdatedToday {
+    border-top: 1px solid #e8e8e8;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
+    background-color: #FCFCFC;
+    width: auto;
+    padding: 5px 20px 5px;
+    border-radius: 0px 0px 3px 3px;
+}
+
+.UpdatedToday h4 {
+    display: inline-block; 
+    font-size: 14px;
+}
+.UpdatedToday span {
+    display: inline-block; 
+    float: left;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.GeneralSpecs {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1080px;
+}
+.SpacificSpecs {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1080px;
+}
+
+.ProgDataHaeder {
+    margin: 0px;
+    border-bottom: 1px solid;
+    border-color: #f7f7f7;
+}
+
+.ProgDataHaeder h2 {
+    display: inline-block;
+    float: right;
+}
+
+.ProgDataHaeder a {
+    display: inline-block;
+    float: left;
+    margin-top: 13px;
+}
+.ProgDataHaeder a:hover {
+    color: #cd162c;
+    text-decoration: none;
+}
+.ProgDataHaeder a:focus {
+    color: #cd162c;
+    text-decoration: none;
+}
+
+.ProgSubtitle {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.ProgSubtitle .value {
+    float: left;
+}
+.ProgSubtitle .title {
+    float: right;
+    margin-right: 20px;
+}
+.ProgSubtitle h3 {
+    display: inline-block;
+    margin-left:15px; 
+}
+
+.sideBarFooter {
+    position: absolute;
+    bottom: 0;
+}
+.list-group-item p {
+    display: inline-block;
+    float: right;
+    margin: 0px;
+}
+
+.list-group-item span {
+    display: inline-block;
+    float: left !important;
+}
+
+.RList {
+    margin: 0px;
+}
+
+.badge {
+    background-color: #cd162c;
+}
+
+
+#CollapseToggleGNumbers {
+    font-size: 17px;
+text-align: center;
+color: #cd162c;
+}
+
+#ReportToggelBtn {
+    padding: 20px;
+}
+
+#ReportToggelBtn:focus {
+    border: none;
+}
+
+#ReportToggelBtn:hover {
+    border: none;
+}
+
+
+.UserNameHeader {
+    background-color: #2e2d2b !important;
+    color: #ffffff;
+    min-height: 42px;
+    height: 100%;
+    min-width: 230px;
+    text-align: left;
+    border: none;
+    padding-left: 0px;
+    font-weight: 600;
+}
+
+.DataSecLogin {
+
+}
+
+
+.loginBLock {
+    position: absolute;
+    min-width: 320px;
+    max-width: 320px;
+    min-height: 100%;
+    max-height: 100%;
+    bottom: 0px;
+    right: 0px;
+    margin-right: 60px;
+}
+
+.formSection {
+    min-height: 100%;
+    min-width: 450px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    opacity: 0.4;
+}
+
+#logo {
+    position: absolute;
+    width: 100%;
+    margin-top: 30%;
+    top: 0px;
+}
+
+.LoginForm {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        margin-bottom: 80px;
+}
+
+.IntroBackground img {
+    position: fixed !important;
+    top: 0px !important;
+    left: 0px !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+.loginBLock label {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+
+.word {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 600px;
+    margin: 5%;
+    margin-left: 6%;
+}

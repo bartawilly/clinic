@@ -1,0 +1,196 @@
+.opened{
+	display:block !important;
+}
+.closed{
+	display:none !important;
+}
+
+.clients {
+    width: 100%;
+}
+table.clients tbody tr td {
+    height: 35px !important;
+    width: 200px;
+}
+table.clients thead tr th {
+    height: 35px !important;
+}
+button.send {
+    background: #CD162C;
+    width: 132px;
+    height: 30px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: -1px 1px 10px 0px #ccc;
+	    margin-right: 15px;
+}
+.minimum {
+    width: 50%;
+    float: left;
+    margin-left: 20px;
+}
+.minlab {
+    float: right;
+    padding-top: 2px;
+    width: 20%;
+}
+.inptlab {
+    width: 79%;
+    margin-right: 30%;
+}
+.minimum2 {
+    width: 50%;
+    float: left;
+    margin-left: 20px;
+}
+.minlab2 {
+    float: right;
+    padding-top: 2px;
+    width: 20%;
+}
+.inptlab2 {
+    width: 79%;
+    margin-right: 30%;
+}
+.datanewcom {
+    margin-top: 30px;
+    font-size: 17px;
+}
+nav-tabs > li .close {
+margin: -2px 0 0 10px;
+font-size: 18px;
+}
+table.clients tr th:nth-child(4) {
+width: 170px;
+}
+button.btn.btn-success:focus {
+    background: #FF9800;
+    border: none;
+}
+button.btn.btn-success {
+    background: #FF9800;
+    border: none;
+}
+#SearchClient input {
+    display: inline-block;
+    width: 70%;
+    margin-top: 20px;
+}
+.SearhDiv2{
+	padding-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    float: right;
+}
+.Nusheet input {
+    width: 150px;
+    height: 30px;
+    margin-right: 35px;
+}
+form#SearchClient {
+    margin-bottom: 40px;
+}
+.SearhDiv2 span {
+    font-size: 20px;
+    padding-left: 9px;
+}
+ .goog-te-banner {
+    margin: 0;
+    background-color: #e4effb;
+    overflow: hidden;
+     /* display: none !important;  */
+}
+.goog-te-banner-frame {
+	 /* visibility:hidden !important;  */
+}
+.goog-te-gadget {
+    font-family: arial;
+    font-size: 11px;
+    color: #666;
+    white-space: nowrap;
+     /* display: none !important;  */
+}
+/*  li#TabReports {
+	display:none;
+}
+li#TabAccounting {
+	display:none;
+}
+li#TabSuccessPassenger {
+	display:none;
+}
+li#TabRoomType {
+	display:none;
+}
+li#TabTaskeen {
+	display:none;
+}
+li#TabSetting {
+	display:none;
+}  */
+.opened{
+	display:block;
+}
+.closed{
+	display:none;;
+}
+.personal {
+    /* margin-right: 22px; */
+    float: right;
+    margin-right: 4%;
+    width: 40%;
+    margin-bottom: 100px !important;
+}
+img.profil_img {
+	width: 134px;
+    float: right;
+    margin-top: 34px;
+    margin-right: 25%;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+}
+.contact {
+    width: 72%;
+    margin-right: 82px;
+}
+.uploaddata {
+    float: left;
+    width: 50%;
+    margin-top: 54px;
+}
+.profile {
+    width: 53%;
+    /* float: left; */
+    /* margin-top: 0%; */
+    background: rgba(204, 204, 204, 0.14);
+    height: 224px;
+    margin-right: 105px;
+    box-shadow: 3px 3px 3px 0px #ccc;
+    /* padding-top: 19px; */
+    padding-right: 21px;
+}
+.profilemodal{
+    width: 84%;
+    /* float: left; */
+    /* margin-top: 0%; */
+    background: rgba(204, 204, 204, 0.14);
+    height: 224px;
+    /* margin-right: 105px; */
+    box-shadow: 3px 3px 3px 0px #ccc;
+    /* padding-top: 19px; */
+    /* padding-right: 21px; */
+}
+.work {
+    width: 85%;
+    margin-right: 35px;
+}
+.work2 {
+    margin-top: 33%;
+    width: 82%;
+}
+.work3 {
+    width: 86%;
+    margin-right: -3px;
+    margin-top: 12px;
+}

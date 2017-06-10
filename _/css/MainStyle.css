@@ -1,0 +1,269 @@
+@font-face {
+	font-family: ArabicFont;  
+	src: url(_/fonts/norwester.ttf);  
+	font-weight: normal;  
+}
+body {
+ font-family: 'ArabicFont';
+}
+.error {
+    color: #cb323d;
+}
+.loginBLock{
+    margin-left: 50px;
+margin-right: 36%;
+margin-top: 8%;
+width: 30%;
+}
+.loginBLock img{
+    width: 100%;
+    margin-bottom: 15px;    
+}
+.indexBody {
+    background: #f4f4f4;  
+}
+.loginBLock label{
+    color: #2d3e50;
+    margin-right: 15px;
+}
+.loginBLock input{
+    margin-right: 15px;
+width: 95%;
+}
+.loginBLock button{
+    margin-right: 15px;
+
+}
+
+/*--------------Header----------------*/
+.navbar-default {
+    background-color: #f8f8f8;
+    background-image: none;
+    border: none;
+}
+.headerLeftBlock li>a{
+    color: #f4f4f4 !important;
+}
+
+.dropdown-menu li > a {
+    color: #27343d !important;
+}
+/*--------------/Header---------------*/
+.body-nav.body-nav-horizontal {
+    background-color: #cb323d;
+    background-repeat: repeat-x;
+    border-bottom: 5px solid #6bbedc;
+    box-shadow: 1px 1px 2px #1f3a4d;
+    height: 70px;
+    
+}
+.body-nav ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.body-nav.body-nav-horizontal ul li {
+
+   /* border-left: 1px solid #101f29; */
+    border-right: 1px solid #2d3e50;
+    float: left;
+    width: 80px;
+    height: 70px;
+}
+
+.body-nav.body-nav-horizontal ul li a:hover{
+
+   text-decoration: none;
+   color: #f4f4f4;
+}
+
+.body-nav.body-nav-horizontal ul li {
+
+   text-decoration: none;
+   color: #f4f4f4;
+}
+
+.body-nav.body-nav-horizontal.body-nav-fixed {
+    display: inline;
+    left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    position: fixed;
+    right: 0;
+    top: 50px;
+    z-index: 921;
+}
+.icon-large {
+    display: block;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 9px;
+    width: 100%;
+    font-family: 'FontAwesome';
+}
+
+.copy {
+    float: left;
+    text-align: left;
+}
+.MenuSpan {
+    font-family: 'FontAwesome';
+}
+.headerLeftBlock {
+    float: left;
+}
+.headerLeft {
+    float: right;
+    font-family: Conv_stc_1;
+}
+.headerLeft li{
+    float: left;
+}
+.SubNav {
+    height: 100%;
+}
+.SubNav li>a {
+    color: #fff;
+    font-family: Conv_stc_1;
+    white-space: nowrap !important;
+}
+
+
+.SubHeader {
+background-color: #27343d;
+}
+.dropdown-menu li {
+    float: right !important;
+    border: none !important;
+    height: auto !important;
+    width: 100% !important;
+    text-align: right !important;  
+    padding-top: 5px;
+padding-bottom: 5px;
+}
+.DataSec {
+    margin-top: 150px;
+}
+.SubHeader h2 {
+    color: #f4f4f4;
+}
+
+body {
+   /* background-color: #f2f4f8; */
+}
+#HeaderTools a{
+    margin: 15px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+#HeaderTools a > span {
+    margin-left: 10px;
+}
+
+#StartResrvetion {
+    margin: 15px;
+}
+.RFform {
+    margin-top: 10px;
+}
+#word img {
+    width: 132px;
+    padding-top: 8px;
+    float: left;
+    padding-bottom: 3px;
+}
+.SubNav h2{
+    margin-top: 15px;
+    font-family: 'GE SS';
+}
+.calenderBody {
+    padding: 25px !important;
+    margin: 0px !important;
+}
+.icon {
+    text-align: right;
+    padding-right: 5px;
+}
+.icon span {
+   font-size: 45px;
+margin-top: 35px;
+vertical-align: middle;
+}
+.CountData h2 {
+    position: relative;
+    z-index: 5;
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 0.5;
+    
+}
+.InnerData h3 {
+    padding: 0;
+    position: relative;
+    z-index: 5;
+    font-size: 20px;
+    margin-top: 0px !important;
+}
+.InnerData p {
+    padding: 0;
+    position: relative;
+    z-index: 5;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 20px !important;
+}
+.Count {
+    float: left;
+}
+.CountData {
+    text-align: left;
+    line-height: 0.6;
+}
+
+.InnerData {
+    line-height: 0.6;
+    margin-bottom: 5px;
+}
+.odd {
+    background: #004071;
+    border-radius: 8px;
+    color: #f4f4f4;
+}
+.red {
+    background: #c79932;
+    border-radius: 8px;
+    color: #f4f4f4;
+}
+.dark {
+    background: #fff;
+    border-radius: 8px;
+    color: #c79932;
+}
+.light {
+    background: #fff;
+    border-radius: 8px;
+    color: #004071;
+}
+.box-header {
+    padding-right: 25px;
+}
+.btn-info {
+    background: #CB323D;
+    box-shadow: none;
+    border-color: none;
+}
+section#DataSection {
+    margin-top: 146px;
+}
+.TextArea {
+    max-width: 100%;
+    max-height: 100px;
+    min-height: 100px;
+    min-width: 100%;
+}
+a.new {
+    white-space: nowrap !important;
+    padding-right: 0px !important;
+    /* margin-right: 10px; */
+}
